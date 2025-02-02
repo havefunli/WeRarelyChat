@@ -1,0 +1,24 @@
+# ninja log v5
+4	1266	7601942741213844	build.ninja	2ce6985f940f09c8
+3	382	7601942744970612	WeRarelyChat_autogen/timestamp	3d93fe2245867f9d
+3	382	7601942744970612	WeRarelyChat_autogen/mocs_compilation.cpp	3d93fe2245867f9d
+3	382	7601942744970612	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/WeRarelyChat_autogen/timestamp	3d93fe2245867f9d
+3	382	7601942744970612	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/WeRarelyChat_autogen/mocs_compilation.cpp	3d93fe2245867f9d
+388	457	7601942746148084	WeRarelyChat_autogen/EWIEGA46WW/qrc_resources.cpp	6dd9ac00a980f04b
+388	457	7601942746148084	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/WeRarelyChat_autogen/EWIEGA46WW/qrc_resources.cpp	6dd9ac00a980f04b
+489	1081	7601942752408036	CMakeFiles/WeRarelyChat.dir/WeRarelyChat_autogen/EWIEGA46WW/qrc_resources.cpp.obj	5944daa112a773c0
+458	2649	7601942767834982	CMakeFiles/WeRarelyChat.dir/WeRarelyChat_autogen/mocs_compilation.cpp.obj	9b0c24a8f7b59745
+478	2651	7601942767865225	CMakeFiles/WeRarelyChat.dir/mainwidget.cpp.obj	f38812928a80b6bf
+6	192	7601944660673630	WeRarelyChat_autogen/timestamp	3d93fe2245867f9d
+6	192	7601944660673630	WeRarelyChat_autogen/mocs_compilation.cpp	3d93fe2245867f9d
+6	192	7601944660673630	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/WeRarelyChat_autogen/timestamp	3d93fe2245867f9d
+6	192	7601944660673630	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/WeRarelyChat_autogen/mocs_compilation.cpp	3d93fe2245867f9d
+204	2590	7601944687216718	CMakeFiles/WeRarelyChat.dir/mainwidget.cpp.obj	f38812928a80b6bf
+195	2610	7601944687206720	CMakeFiles/WeRarelyChat.dir/main.cpp.obj	32519191a07c9380
+2610	3346	7601944694571032	WeRarelyChat.exe	f606c47468f176de
+6	134	7601945041894699	WeRarelyChat_autogen/timestamp	3d93fe2245867f9d
+6	134	7601945041894699	WeRarelyChat_autogen/mocs_compilation.cpp	3d93fe2245867f9d
+6	134	7601945041894699	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/WeRarelyChat_autogen/timestamp	3d93fe2245867f9d
+6	134	7601945041894699	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/WeRarelyChat_autogen/mocs_compilation.cpp	3d93fe2245867f9d
+137	2006	7601945072646843	CMakeFiles/WeRarelyChat.dir/mainwidget.cpp.obj	f38812928a80b6bf
+2006	2268	7601945074649671	WeRarelyChat.exe	f606c47468f176de
