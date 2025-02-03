@@ -110,12 +110,14 @@ WeRarelyChat_autogen/timestamp: \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qtversionchecks.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qtypeinfo.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qtypes.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qurl.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qutf8stringview.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qvariant.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qvarlengtharray.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qversiontagging.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qxptype_traits.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qyieldcpu.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/QPainter \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qaction.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qbitmap.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qbrush.h \
@@ -128,23 +130,35 @@ WeRarelyChat_autogen/timestamp: \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qimage.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qkeysequence.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpaintdevice.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpainter.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpalette.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpen.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpixelformat.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpixmap.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpolygon.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qregion.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qrgb.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qrgba64.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextcursor.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextdocument.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextformat.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextoption.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtgui-config.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtguiexports.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtguiglobal.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtransform.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs_win.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QLineEdit \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QPushButton \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QScrollArea \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QWidget \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qabstractbutton.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qabstractscrollarea.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qframe.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlineedit.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qpushbutton.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qscrollarea.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qsizepolicy.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtwidgetsexports.h \
@@ -377,10 +391,13 @@ WeRarelyChat_autogen/timestamp: \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	C:/Users/acer/Desktop/Project/WeRarelyChat/debug.h \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/main.cpp \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/mainwidget.cpp \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/mainwidget.h \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/model/data.h \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/resources.qrc \
+	C:/Users/acer/Desktop/Project/WeRarelyChat/sessionarea.cpp \
+	C:/Users/acer/Desktop/Project/WeRarelyChat/sessionarea.h \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/mainwidget.ui \
 	A:/Qt6/Tools/CMake_64/bin/cmake.exe

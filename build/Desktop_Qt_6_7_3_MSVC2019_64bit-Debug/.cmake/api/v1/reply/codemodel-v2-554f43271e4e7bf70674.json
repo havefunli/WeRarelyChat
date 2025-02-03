@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-af86cee7e612d18d4042.json",
+					"jsonFile" : "directory-.-Debug-0a8edf10ccd8688207b2.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "WeRarelyChat::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WeRarelyChat-Debug-465142a4f74ad0d1ed6b.json",
+					"jsonFile" : "target-WeRarelyChat-Debug-09dbce15d8f15a5ca96b.json",
 					"name" : "WeRarelyChat",
 					"projectIndex" : 0
 				},

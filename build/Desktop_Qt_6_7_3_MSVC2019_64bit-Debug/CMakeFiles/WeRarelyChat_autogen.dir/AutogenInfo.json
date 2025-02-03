@@ -321,6 +321,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/acer/Desktop/Project/WeRarelyChat/debug.h",
+			"MU",
+			"EWIEGA46WW/moc_debug.cpp",
+			null
+		],
+		[
 			"C:/Users/acer/Desktop/Project/WeRarelyChat/mainwidget.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwidget.cpp",
@@ -330,6 +336,12 @@
 			"C:/Users/acer/Desktop/Project/WeRarelyChat/model/data.h",
 			"MU",
 			"NLOY5YBGEN/moc_data.cpp",
+			null
+		],
+		[
+			"C:/Users/acer/Desktop/Project/WeRarelyChat/sessionarea.h",
+			"MU",
+			"EWIEGA46WW/moc_sessionarea.cpp",
 			null
 		]
 	],
@@ -391,6 +403,11 @@
 		[ "C:/Users/acer/Desktop/Project/WeRarelyChat/main.cpp", "MU", null ],
 		[
 			"C:/Users/acer/Desktop/Project/WeRarelyChat/mainwidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/acer/Desktop/Project/WeRarelyChat/sessionarea.cpp",
 			"MU",
 			null
 		]

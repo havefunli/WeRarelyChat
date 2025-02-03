@@ -76,6 +76,15 @@ build CMakeFiles\WeRarelyChat.dir\mainwidget.cpp.obj: CXX_COMPILER__WeRarelyChat
   TARGET_COMPILE_PDB = CMakeFiles\WeRarelyChat.dir\
   TARGET_PDB = WeRarelyChat.pdb
 
+build CMakeFiles\WeRarelyChat.dir\sessionarea.cpp.obj: CXX_COMPILER__WeRarelyChat_unscanned_Debug C$:\Users\acer\Desktop\Project\WeRarelyChat\sessionarea.cpp || cmake_object_order_depends_target_WeRarelyChat
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IC:\Users\acer\Desktop\Project\WeRarelyChat\build\Desktop_Qt_6_7_3_MSVC2019_64bit-Debug\WeRarelyChat_autogen\include -external:IA:\Qt6\6.7.3\msvc2019_64\include\QtCore -external:IA:\Qt6\6.7.3\msvc2019_64\include -external:IA:\Qt6\6.7.3\msvc2019_64\mkspecs\win32-msvc -external:IA:\Qt6\6.7.3\msvc2019_64\include\QtWidgets -external:IA:\Qt6\6.7.3\msvc2019_64\include\QtGui -external:W0
+  OBJECT_DIR = CMakeFiles\WeRarelyChat.dir
+  OBJECT_FILE_DIR = CMakeFiles\WeRarelyChat.dir
+  TARGET_COMPILE_PDB = CMakeFiles\WeRarelyChat.dir\
+  TARGET_PDB = WeRarelyChat.pdb
+
 build CMakeFiles\WeRarelyChat.dir\WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.cpp.obj: CXX_COMPILER__WeRarelyChat_unscanned_Debug C$:\Users\acer\Desktop\Project\WeRarelyChat\build\Desktop_Qt_6_7_3_MSVC2019_64bit-Debug\WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.cpp || cmake_object_order_depends_target_WeRarelyChat
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
@@ -93,7 +102,7 @@ build CMakeFiles\WeRarelyChat.dir\WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.
 #############################################
 # Link the executable WeRarelyChat.exe
 
-build WeRarelyChat.exe: CXX_EXECUTABLE_LINKER__WeRarelyChat_Debug CMakeFiles\WeRarelyChat.dir\WeRarelyChat_autogen\mocs_compilation.cpp.obj CMakeFiles\WeRarelyChat.dir\main.cpp.obj CMakeFiles\WeRarelyChat.dir\mainwidget.cpp.obj CMakeFiles\WeRarelyChat.dir\WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.cpp.obj | A$:\Qt6\6.7.3\msvc2019_64\lib\Qt6Widgetsd.lib A$:\Qt6\6.7.3\msvc2019_64\lib\Qt6Guid.lib A$:\Qt6\6.7.3\msvc2019_64\lib\Qt6Cored.lib A$:\Qt6\6.7.3\msvc2019_64\lib\Qt6EntryPointd.lib || WeRarelyChat_autogen WeRarelyChat_autogen_timestamp_deps
+build WeRarelyChat.exe: CXX_EXECUTABLE_LINKER__WeRarelyChat_Debug CMakeFiles\WeRarelyChat.dir\WeRarelyChat_autogen\mocs_compilation.cpp.obj CMakeFiles\WeRarelyChat.dir\main.cpp.obj CMakeFiles\WeRarelyChat.dir\mainwidget.cpp.obj CMakeFiles\WeRarelyChat.dir\sessionarea.cpp.obj CMakeFiles\WeRarelyChat.dir\WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.cpp.obj | A$:\Qt6\6.7.3\msvc2019_64\lib\Qt6Widgetsd.lib A$:\Qt6\6.7.3\msvc2019_64\lib\Qt6Guid.lib A$:\Qt6\6.7.3\msvc2019_64\lib\Qt6Cored.lib A$:\Qt6\6.7.3\msvc2019_64\lib\Qt6EntryPointd.lib || WeRarelyChat_autogen WeRarelyChat_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
   LINK_LIBRARIES = A:\Qt6\6.7.3\msvc2019_64\lib\Qt6Widgetsd.lib  A:\Qt6\6.7.3\msvc2019_64\lib\Qt6Guid.lib  A:\Qt6\6.7.3\msvc2019_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  A:\Qt6\6.7.3\msvc2019_64\lib\Qt6EntryPointd.lib  shell32.lib  d3d11.lib  dxgi.lib  dxguid.lib  d3d12.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -186,7 +195,7 @@ build WeRarelyChat_autogen\timestamp WeRarelyChat_autogen\mocs_compilation.cpp |
 #############################################
 # Custom command for WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.cpp
 
-build WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.cpp | ${cmake_ninja_workdir}WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.cpp: CUSTOM_COMMAND C$:\Users\acer\Desktop\Project\WeRarelyChat\resources.qrc CMakeFiles\WeRarelyChat_autogen.dir\AutoRcc_resources_EWIEGA46WW_Info.json C$:\Users\acer\Desktop\Project\WeRarelyChat\image\wechat.png A$:\Qt6\6.7.3\msvc2019_64\bin\rcc.exe A$:\Qt6\6.7.3\msvc2019_64\bin\rcc.exe || WeRarelyChat_autogen WeRarelyChat_autogen_timestamp_deps
+build WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.cpp | ${cmake_ninja_workdir}WeRarelyChat_autogen\EWIEGA46WW\qrc_resources.cpp: CUSTOM_COMMAND C$:\Users\acer\Desktop\Project\WeRarelyChat\resources.qrc CMakeFiles\WeRarelyChat_autogen.dir\AutoRcc_resources_EWIEGA46WW_Info.json C$:\Users\acer\Desktop\Project\WeRarelyChat\image\friend_a.png C$:\Users\acer\Desktop\Project\WeRarelyChat\image\session_b.png C$:\Users\acer\Desktop\Project\WeRarelyChat\image\add_b.png C$:\Users\acer\Desktop\Project\WeRarelyChat\image\session_a.png C$:\Users\acer\Desktop\Project\WeRarelyChat\image\add.png C$:\Users\acer\Desktop\Project\WeRarelyChat\image\wechat.png C$:\Users\acer\Desktop\Project\WeRarelyChat\image\avatar.png C$:\Users\acer\Desktop\Project\WeRarelyChat\image\friend_b.png C$:\Users\acer\Desktop\Project\WeRarelyChat\image\add_a.png A$:\Qt6\6.7.3\msvc2019_64\bin\rcc.exe A$:\Qt6\6.7.3\msvc2019_64\bin\rcc.exe || WeRarelyChat_autogen WeRarelyChat_autogen_timestamp_deps
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\acer\Desktop\Project\WeRarelyChat\build\Desktop_Qt_6_7_3_MSVC2019_64bit-Debug && A:\Qt6\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/WeRarelyChat_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for resources.qrc
   restat = 1

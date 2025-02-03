@@ -7,7 +7,18 @@
 	"CROSS_CONFIG" : false,
 	"GENERATOR" : "Ninja",
 	"INCLUDE_DIR" : "C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/WeRarelyChat_autogen/include",
-	"INPUTS" : [ "C:/Users/acer/Desktop/Project/WeRarelyChat/image/wechat.png" ],
+	"INPUTS" : 
+	[
+		"C:/Users/acer/Desktop/Project/WeRarelyChat/image/friend_a.png",
+		"C:/Users/acer/Desktop/Project/WeRarelyChat/image/session_b.png",
+		"C:/Users/acer/Desktop/Project/WeRarelyChat/image/add_b.png",
+		"C:/Users/acer/Desktop/Project/WeRarelyChat/image/session_a.png",
+		"C:/Users/acer/Desktop/Project/WeRarelyChat/image/add.png",
+		"C:/Users/acer/Desktop/Project/WeRarelyChat/image/wechat.png",
+		"C:/Users/acer/Desktop/Project/WeRarelyChat/image/avatar.png",
+		"C:/Users/acer/Desktop/Project/WeRarelyChat/image/friend_b.png",
+		"C:/Users/acer/Desktop/Project/WeRarelyChat/image/add_a.png"
+	],
 	"LOCK_FILE" : "C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/WeRarelyChat_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],

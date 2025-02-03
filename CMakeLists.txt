@@ -25,6 +25,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         model/data.h
         resources.qrc
+        sessionarea.h sessionarea.cpp
+        debug.h
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET WeRarelyChat APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

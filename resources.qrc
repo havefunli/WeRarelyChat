@@ -1,5 +1,13 @@
 <RCC>
     <qresource prefix="/">
         <file>image/wechat.png</file>
+        <file>image/add_a.png</file>
+        <file>image/add_b.png</file>
+        <file>image/avatar.png</file>
+        <file>image/friend_a.png</file>
+        <file>image/friend_b.png</file>
+        <file>image/session_a.png</file>
+        <file>image/session_b.png</file>
+        <file>image/add.png</file>
     </qresource>
 </RCC>
