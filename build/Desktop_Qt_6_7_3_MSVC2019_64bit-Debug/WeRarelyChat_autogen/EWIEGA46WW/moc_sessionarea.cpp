@@ -33,16 +33,16 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSSessionItemENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSSessionItemENDCLASS = QtMocHelpers::stringData(
-    "SessionItem"
+struct qt_meta_stringdata_CLASSSessionFriendItemENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSSessionFriendItemENDCLASS = QtMocHelpers::stringData(
+    "SessionFriendItem"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
 #endif // !QT_MOC_HAS_STRINGDATA
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSSessionItemENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSSessionFriendItemENDCLASS[] = {
 
  // content:
       12,       // revision
@@ -58,20 +58,20 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSessionItemENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject SessionItem::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject SessionFriendItem::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_CLASSSessionItemENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSSessionItemENDCLASS,
+    qt_meta_stringdata_CLASSSessionFriendItemENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSSessionFriendItemENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSSessionItemENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSSessionFriendItemENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<SessionItem, std::true_type>
+        QtPrivate::TypeAndForceComplete<SessionFriendItem, std::true_type>
     >,
     nullptr
 } };
 
-void SessionItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void SessionFriendItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -79,20 +79,20 @@ void SessionItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     (void)_a;
 }
 
-const QMetaObject *SessionItem::metaObject() const
+const QMetaObject *SessionFriendItem::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *SessionItem::qt_metacast(const char *_clname)
+void *SessionFriendItem::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSSessionItemENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSSessionFriendItemENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
 
-int SessionItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int SessionFriendItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
     return _id;
