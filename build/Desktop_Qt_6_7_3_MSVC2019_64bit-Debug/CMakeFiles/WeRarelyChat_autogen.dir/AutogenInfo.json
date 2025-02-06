@@ -333,6 +333,18 @@
 			null
 		],
 		[
+			"C:/Users/acer/Desktop/Project/WeRarelyChat/messagearea.h",
+			"MU",
+			"EWIEGA46WW/moc_messagearea.cpp",
+			null
+		],
+		[
+			"C:/Users/acer/Desktop/Project/WeRarelyChat/messageeditarea.h",
+			"MU",
+			"EWIEGA46WW/moc_messageeditarea.cpp",
+			null
+		],
+		[
 			"C:/Users/acer/Desktop/Project/WeRarelyChat/model/data.h",
 			"MU",
 			"NLOY5YBGEN/moc_data.cpp",
@@ -403,6 +415,16 @@
 		[ "C:/Users/acer/Desktop/Project/WeRarelyChat/main.cpp", "MU", null ],
 		[
 			"C:/Users/acer/Desktop/Project/WeRarelyChat/mainwidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/acer/Desktop/Project/WeRarelyChat/messagearea.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/acer/Desktop/Project/WeRarelyChat/messageeditarea.cpp",
 			"MU",
 			null
 		],

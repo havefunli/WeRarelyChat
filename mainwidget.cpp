@@ -1,11 +1,10 @@
 #include "mainwidget.h"
 #include "./ui_mainwidget.h"
 #include "sessionarea.h"
-
+#include "debug.h"
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QGridLayout>
-#include <QSpacerItem>
 #include <QIcon>
 
 MainWidget* MainWidget::self = nullptr;
@@ -49,7 +48,7 @@ void MainWidget::initMainWindow()
     windowMid->setFixedWidth(320);
 
     windowRight = new QWidget();
-    windowRight->setMinimumWidth(500); // 可拉长
+    windowRight->setMinimumWidth(800); // 可拉长
 
     layout->addWidget(windowLeft);
     layout->addWidget(windowMid);
@@ -132,7 +131,49 @@ void MainWidget::initMidWindow()
 
 void MainWidget::initRightWindow()
 {
+    // 右侧整体垂直布局
+    QVBoxLayout *vLayout = new QVBoxLayout();
+    vLayout->setSpacing(0);
+    vLayout->setContentsMargins(0, 0, 0, 0);
+    vLayout->setAlignment(Qt::AlignTop);
+    windowRight->setLayout(vLayout);
 
+    // 标题栏设置
+    QWidget *titleWidget = new QWidget();
+    titleWidget->setFixedHeight(62);
+    titleWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+    titleWidget->setStyleSheet("QWidget { border-bottom: 1px solid rgb(230, 230, 230); }");             // 下边框
+    vLayout->addWidget(titleWidget);
+
+    // 内部是水平布局的包含一个 title 和 setting
+    QHBoxLayout *hLayout = new QHBoxLayout();
+    hLayout->setSpacing(0);
+    hLayout->setContentsMargins(15, 0, 10, 0);
+    titleWidget->setLayout(hLayout);
+    // 标题
+    QLabel *titleLabel = new QLabel();
+    titleLabel->setStyleSheet("QLabel { font-size: 22px; }");
+#if TEST_UI
+    titleLabel->setText("这个测试会话");
+#endif
+    hLayout->addWidget(titleLabel);
+    // 额外设置
+    QPushButton *extraBtn = new QPushButton();
+    extraBtn->setFixedSize(20, 20);
+    extraBtn->setIcon(QIcon(":/image/more.png"));
+    extraBtn->setIconSize(QSize(20, 20));
+    extraBtn->setStyleSheet("QPushButton { border:none; \
+                                        background-color: rgb(245, 245, 245);}\
+                            QPushButton:pressed {background-color: rgb(220, 220, 220);}");
+    hLayout->addWidget(extraBtn);
+
+    // 消息展示
+    msgArea = new MessageArea();
+    vLayout->addWidget(msgArea);
+
+    // 消息编辑
+    editArea = new MessageEditArea();
+    vLayout->addWidget(editArea, 0, Qt::AlignBottom);
 }
 
 void MainWidget::initConnect()

@@ -9,5 +9,9 @@
         <file>image/session_a.png</file>
         <file>image/session_b.png</file>
         <file>image/add.png</file>
+        <file>image/accept.png</file>
+        <file>image/reject.png</file>
+        <file>image/more.png</file>
+        <file>image/avatar_boy.png</file>
     </qresource>
 </RCC>

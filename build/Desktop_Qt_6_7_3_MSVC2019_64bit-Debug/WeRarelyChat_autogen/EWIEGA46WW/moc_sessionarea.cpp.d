@@ -43,6 +43,7 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qglobalstatic.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qhash.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qhashfunctions.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qiodevice.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qiodevicebase.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qiterable.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qiterator.h \
@@ -110,6 +111,7 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qtversionchecks.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qtypeinfo.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qtypes.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qurl.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qutf8stringview.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qvariant.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qvarlengtharray.h \
@@ -132,12 +134,14 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpainter.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpalette.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpen.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpicture.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpixelformat.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpixmap.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpolygon.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qregion.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qrgb.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qrgba64.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextdocument.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextoption.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtgui-config.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtguiexports.h \
@@ -145,10 +149,15 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtransform.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs_win.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QLabel \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QPushButton \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QScrollArea \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QWidget \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qabstractbutton.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qabstractscrollarea.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qframe.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlabel.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qpushbutton.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qscrollarea.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qsizepolicy.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtwidgets-config.h \

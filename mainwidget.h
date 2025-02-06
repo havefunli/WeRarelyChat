@@ -1,6 +1,9 @@
 #ifndef MAINWIDGET_H
 #define MAINWIDGET_H
 
+#include "messagearea.h"
+#include "messageeditarea.h"
+
 #include <QWidget>
 #include <QLineEdit>
 #include <QPushButton>
@@ -55,18 +58,21 @@ private:
     Ui::MainWidget *ui;
     static MainWidget *self;
 
-    ActivePage page;        // 当前所处在的页
+    ActivePage page;            // 当前所处在的页
 
-    QWidget *windowLeft;    // 左侧窗口
-    QWidget *windowMid;     // 中间窗口
-    QWidget *windowRight;   // 右侧窗口
+    QWidget *windowLeft;        // 左侧窗口
+    QWidget *windowMid;         // 中间窗口
+    QWidget *windowRight;       // 右侧窗口
 
-    QPushButton *userAvatar;// 用户头像
-    QPushButton *sessionBtn;// 会话按钮
-    QPushButton *friendsBtn;// 好友按钮
-    QPushButton *applyBtn;  // 好友申请按钮
+    QPushButton *userAvatar;    // 用户头像
+    QPushButton *sessionBtn;    // 会话按钮
+    QPushButton *friendsBtn;    // 好友按钮
+    QPushButton *applyBtn;      // 好友申请按钮
 
-    QLineEdit *searchEdit;  // 搜索框
-    QPushButton *addBtn;    // 增加好友
+    QLineEdit *searchEdit;      // 搜索框
+    QPushButton *addBtn;        // 增加好友
+
+    MessageArea *msgArea;       // 消息展示区
+    MessageEditArea *editArea;  // 消息编辑区
 };
 #endif // MAINWIDGET_H

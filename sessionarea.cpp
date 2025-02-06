@@ -1,10 +1,9 @@
 #include "sessionarea.h"
 #include "debug.h"
-#include <QLabel>
 #include <QDebug>
 #include <QStyleOption>
 #include <QVBoxLayout>
-#include <QPushButton>
+
 
 SessionArea::SessionArea(QWidget *parent)
     : QScrollArea{parent}
@@ -27,14 +26,28 @@ SessionArea::SessionArea(QWidget *parent)
 
 #if TEST_UI
     for (int i = 0; i < 30; i++) {
-        addItem(QIcon(":/image/avatar.png"), QString::number(i), "这是用例");
+        addItem(ApplyItemType, QString::number(i + 1), QIcon(":/image/avatar.png"), QString::number(i), "这是用例");
     }
 #endif
 }
 
-void SessionArea::addItem(const QIcon &avatar, const QString &name, const QString &msg)
+void SessionArea::addItem(ItemType itemType, const QString &id, const QIcon &avatar, const QString &name, const QString &msg)
 {
-    SessionFriendItem *item = new SessionFriendItem(this, avatar, name, msg);
+    // 根据类型来初始化不同的对象
+    SessionFriendItem *item = nullptr;
+    switch (itemType) {
+    case SessionItemType:
+        item = new SessionItem(this, id, avatar, name, msg);
+        break;
+    case FriendItemType:
+        item = new FriendItem(this, id, avatar, name, msg);
+        break;
+    case ApplyItemType:
+        item = new ApplyItem(this, id, avatar, name);
+        break;
+    default:
+        break;
+    }
     container->layout()->addWidget(item);
 }
 
@@ -82,7 +95,7 @@ SessionFriendItem::SessionFriendItem(QWidget *owner, const QIcon &avatar, const 
     this->setLayout(layout);
 
     // 头像
-    QPushButton *avatarBtn = new QPushButton();
+    avatarBtn = new QPushButton();
     avatarBtn->setFixedSize(50, 50);
     avatarBtn->setIcon(avatar);
     avatarBtn->setIconSize(QSize(50, 50));
@@ -90,21 +103,21 @@ SessionFriendItem::SessionFriendItem(QWidget *owner, const QIcon &avatar, const 
     avatarBtn->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
 
     // 名字
-    QLabel *nameLabel = new QLabel();
+    nameLabel = new QLabel();
     nameLabel->setText(name);
     nameLabel->setFixedHeight(35);
     nameLabel->setStyleSheet("QLabel {font-size: 18px; font-weight: 600;}");
     nameLabel->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
 
-    // 最后一条信息
-    QLabel *msgLabel = new QLabel();
+    // 信息
+    msgLabel = new QLabel();
     msgLabel->setText(msg);
     msgLabel->setFixedHeight(35);
     msgLabel->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
 
     layout->addWidget(avatarBtn, 0, 0, 2, 2);
-    layout->addWidget(nameLabel, 0, 2, 1, 1);
-    layout->addWidget(msgLabel, 1, 2, 1, 1);
+    layout->addWidget(nameLabel, 0, 2, 1, 8);
+    layout->addWidget(msgLabel, 1, 2, 1, 8);
 }
 
 void SessionFriendItem::paintEvent(QPaintEvent *event)
@@ -127,7 +140,13 @@ void SessionFriendItem::select()
             item->setStyleSheet("QWidget {background-color: rgb(231, 231, 231);}");
         }
     }
+
+    // 业务函数
+    active();
 }
+
+void SessionFriendItem::active()
+{}
 
 void SessionFriendItem::mousePressEvent(QMouseEvent *event)
 {
@@ -154,9 +173,51 @@ void SessionFriendItem::leaveEvent(QEvent *event)
     this->setStyleSheet("QWidget {background-color: rgb(231, 231, 231);}");
 }
 
+
 SessionItem::SessionItem(QWidget *owner, const QString &chatSessionId, const QIcon &avatar, const QString &name, const QString &msg)
     : SessionFriendItem(owner, avatar, name, msg)
     , chatSessionId(chatSessionId)
-{
+{}
 
+void SessionItem::active()
+{
+    qDebug()<< "SessionItem";
+}
+
+
+
+FriendItem::FriendItem(QWidget *owner, const QString &userId, const QIcon &avatar, const QString &name, const QString &description)
+    : SessionFriendItem(owner, avatar, name, description)
+    , userId(userId)
+{}
+
+void FriendItem::active()
+{
+    qDebug()<< "FriendItem";
+}
+
+ApplyItem::ApplyItem(QWidget *owner, const QString &userId, const QIcon &avatar, const QString &name)
+    : SessionFriendItem(owner, avatar, name, "")
+    , userId(userId)
+{
+    QGridLayout *layout = static_cast<QGridLayout*>(this->layout());
+    layout->removeWidget(msgLabel);
+    delete msgLabel;
+
+    // 同意按钮 / 拒绝按钮
+    QPushButton *acceptBtn = new QPushButton();
+    acceptBtn->setText("同意");
+    acceptBtn->setIcon(QIcon(":/image/accept.png"));
+
+    QPushButton *rejectBtn = new QPushButton();
+    rejectBtn->setText("拒绝");
+    rejectBtn->setIcon(QIcon(":/image/reject.png"));
+
+    layout->addWidget(acceptBtn, 1, 2, 1, 1);
+    layout->addWidget(rejectBtn, 1, 3, 1, 1);
+}
+
+void ApplyItem::active()
+{
+    qDebug()<< "ApplyItem";
 }
