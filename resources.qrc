@@ -13,5 +13,9 @@
         <file>image/reject.png</file>
         <file>image/more.png</file>
         <file>image/avatar_boy.png</file>
+        <file>image/file.png</file>
+        <file>image/image.png</file>
+        <file>image/speech.png</file>
+        <file>image/history.png</file>
     </qresource>
 </RCC>

@@ -2,6 +2,11 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QDateTime \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QDebug \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QFile \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QList \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QObject \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QRect \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QSize \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QSizeF \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QString \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/QUuid \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/q20functional.h \
@@ -34,11 +39,17 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qcontainerinfo.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qcontainertools_impl.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qcontiguouscache.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qcoreapplication.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qcoreapplication_platform.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qcoreevent.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qdarwinhelpers.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qdatastream.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qdatetime.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qdeadlinetimer.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qdebug.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qelapsedtimer.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qendian.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qeventloop.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qexceptionhandling.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qfile.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qfiledevice.h \
@@ -69,6 +80,7 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qmetatype.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qminmax.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qnamespace.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qnativeinterface.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qnumeric.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qobject.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qobject_impl.h \
@@ -130,16 +142,26 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qxptype_traits.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qyieldcpu.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/QIcon \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/QTransform \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qabstracttextdocumentlayout.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qaction.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qbitmap.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qbrush.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qcolor.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qcursor.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qevent.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qeventpoint.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qfont.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qfontdatabase.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qfontinfo.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qfontmetrics.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qglyphrun.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qguiapplication.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qguiapplication_platform.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qicon.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qimage.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qinputdevice.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qinputmethod.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qkeysequence.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpaintdevice.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpalette.h \
@@ -147,22 +169,30 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpicture.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpixelformat.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpixmap.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpointingdevice.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpolygon.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qrawfont.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qregion.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qrgb.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qrgba64.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qscreen.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qscreen_platform.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextcursor.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextdocument.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextformat.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextlayout.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextoption.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtgui-config.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtguiexports.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtguiglobal.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtransform.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qvector2d.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qvectornd.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs_win.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QLabel \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QLineEdit \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QPlainTextEdit \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QPushButton \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QScrollArea \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QWidget \
@@ -171,9 +201,11 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qframe.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlabel.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlineedit.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qplaintextedit.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qpushbutton.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qscrollarea.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qsizepolicy.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtextedit.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtwidgetsexports.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h \

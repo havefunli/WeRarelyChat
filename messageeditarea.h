@@ -2,6 +2,8 @@
 #define MESSAGEEDITAREA_H
 
 #include <QWidget>
+#include <QPushButton>
+#include <QPlainTextEdit>
 
 class MessageEditArea : public QWidget
 {
@@ -9,7 +11,13 @@ class MessageEditArea : public QWidget
 public:
     explicit MessageEditArea(QWidget *parent = nullptr);
 
-signals:
+private:
+    QPushButton *sendImageBtn;
+    QPushButton *sendFileBtn;
+    QPushButton *sendSpeechBtn;
+    QPushButton *showHistoryBtn;
+    QPlainTextEdit *textEdit;
+    QPushButton *sendBtn;
 };
 
 #endif // MESSAGEEDITAREA_H
