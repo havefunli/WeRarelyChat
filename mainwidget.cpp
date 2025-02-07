@@ -1,7 +1,10 @@
 #include "mainwidget.h"
 #include "./ui_mainwidget.h"
 #include "sessionarea.h"
+#include "selfinfowidget.h"
 #include "debug.h"
+
+
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QGridLayout>
@@ -182,6 +185,12 @@ void MainWidget::initConnect()
     connect(sessionBtn, &QPushButton::clicked, this, &MainWidget::switchToSession);
     connect(friendsBtn, &QPushButton::clicked, this, &MainWidget::switchToFriends);
     connect(applyBtn, &QPushButton::clicked, this, &MainWidget::switchToApply);
+
+    // 点击头像显示信息
+    connect(userAvatar, &QPushButton::clicked, this, [this](){
+        SelfInfoWidget *selfInfo = new SelfInfoWidget(this);
+        selfInfo->exec();
+    });
 }
 
 void MainWidget::loadSessionData()

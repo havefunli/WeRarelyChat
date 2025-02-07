@@ -351,6 +351,12 @@
 			null
 		],
 		[
+			"C:/Users/acer/Desktop/Project/WeRarelyChat/selfinfowidget.h",
+			"MU",
+			"EWIEGA46WW/moc_selfinfowidget.cpp",
+			null
+		],
+		[
 			"C:/Users/acer/Desktop/Project/WeRarelyChat/sessionarea.h",
 			"MU",
 			"EWIEGA46WW/moc_sessionarea.cpp",
@@ -425,6 +431,11 @@
 		],
 		[
 			"C:/Users/acer/Desktop/Project/WeRarelyChat/messageeditarea.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/acer/Desktop/Project/WeRarelyChat/selfinfowidget.cpp",
 			"MU",
 			null
 		],
