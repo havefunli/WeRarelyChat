@@ -17,5 +17,7 @@
         <file>image/image.png</file>
         <file>image/speech.png</file>
         <file>image/history.png</file>
+        <file>image/modify.png</file>
+        <file>image/submit.png</file>
     </qresource>
 </RCC>

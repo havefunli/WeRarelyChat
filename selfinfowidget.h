@@ -5,13 +5,19 @@
 #include <QWidget>
 #include <QLabel>
 #include <QLineEdit>
+#include <QGridLayout>
 
 class SelfInfoWidget : public QDialog
 {
     Q_OBJECT
 public:
     SelfInfoWidget(QWidget *parent);
+
 private:
+    void initConnect();
+private:
+    QGridLayout *layout;
+
     QPushButton *avatarBtn;
 
     QLabel *idTag;

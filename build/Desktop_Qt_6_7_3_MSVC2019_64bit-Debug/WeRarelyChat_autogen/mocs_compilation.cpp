@@ -4,3 +4,4 @@
 #include "EWIEGA46WW/moc_messageeditarea.cpp"
 #include "EWIEGA46WW/moc_selfinfowidget.cpp"
 #include "EWIEGA46WW/moc_sessionarea.cpp"
+#include "EWIEGA46WW/moc_usrinfowidget.cpp"

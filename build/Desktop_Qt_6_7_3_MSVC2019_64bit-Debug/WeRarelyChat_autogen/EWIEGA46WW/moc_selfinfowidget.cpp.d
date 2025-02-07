@@ -150,12 +150,17 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs_win.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QDialog \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QGridLayout \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QLabel \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QLineEdit \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QWidget \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qboxlayout.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qdialog.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qframe.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qgridlayout.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlabel.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlayout.h \
+  A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlayoutitem.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlineedit.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qsizepolicy.h \
   A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtwidgets-config.h \

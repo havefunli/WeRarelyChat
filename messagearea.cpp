@@ -1,4 +1,5 @@
 #include "messagearea.h"
+#include "usrinfowidget.h"
 #include "debug.h"
 
 
@@ -124,6 +125,12 @@ MessageItem *MessageItem::makeMessageItem(bool isLeft, const Message &msg)
     } else {
         layout->addWidget(contentWidget, 1, 0);
     }
+
+    // 连接信号槽
+    connect(avatarBtn, &QPushButton::clicked, item, [=]() {
+        UsrInfoWidget *usrInfo = new UsrInfoWidget(item, msg.sender);
+        usrInfo->exec();
+    });
 
     return item;
 }
