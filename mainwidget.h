@@ -72,6 +72,7 @@ private:
     QLineEdit *searchEdit;      // 搜索框
     QPushButton *addBtn;        // 增加好友
 
+    QPushButton *extraBtn;      // 详情按钮
     MessageArea *msgArea;       // 消息展示区
     MessageEditArea *editArea;  // 消息编辑区
 };

@@ -1,6 +1,7 @@
 #include "mainwidget.h"
 #include "./ui_mainwidget.h"
 #include "sessionarea.h"
+#include "sessioninfowidget.h"
 #include "selfinfowidget.h"
 #include "debug.h"
 
@@ -161,7 +162,7 @@ void MainWidget::initRightWindow()
 #endif
     hLayout->addWidget(titleLabel);
     // 额外设置
-    QPushButton *extraBtn = new QPushButton();
+    extraBtn = new QPushButton();
     extraBtn->setFixedSize(20, 20);
     extraBtn->setIcon(QIcon(":/image/more.png"));
     extraBtn->setIconSize(QSize(20, 20));
@@ -190,6 +191,12 @@ void MainWidget::initConnect()
     connect(userAvatar, &QPushButton::clicked, this, [this](){
         SelfInfoWidget *selfInfo = new SelfInfoWidget(this);
         selfInfo->exec();
+    });
+
+    // 消息详情按钮
+    connect(extraBtn, &QPushButton::clicked, this, [this](){
+        SessionInfoWidget *inforWidget = new SessionInfoWidget(this);
+        inforWidget->exec();
     });
 }
 

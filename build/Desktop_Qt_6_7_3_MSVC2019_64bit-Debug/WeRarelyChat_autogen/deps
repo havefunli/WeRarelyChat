@@ -446,6 +446,8 @@ WeRarelyChat_autogen/timestamp: \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/build/Desktop_Qt_6_7_3_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	C:/Users/acer/Desktop/Project/WeRarelyChat/choosefrienddialog.cpp \
+	C:/Users/acer/Desktop/Project/WeRarelyChat/choosefrienddialog.h \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/debug.h \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/main.cpp \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/mainwidget.cpp \
@@ -460,6 +462,8 @@ WeRarelyChat_autogen/timestamp: \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/selfinfowidget.h \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/sessionarea.cpp \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/sessionarea.h \
+	C:/Users/acer/Desktop/Project/WeRarelyChat/sessioninfowidget.cpp \
+	C:/Users/acer/Desktop/Project/WeRarelyChat/sessioninfowidget.h \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/usrinfowidget.cpp \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/usrinfowidget.h \
 	C:/Users/acer/Desktop/Project/WeRarelyChat/mainwidget.ui \
