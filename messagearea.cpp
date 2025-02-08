@@ -33,6 +33,9 @@ MessageArea::MessageArea()
     for(int i = 0; i < 30; i++) {
         model::UserInfo usr;
         usr.nickName = "小权" + QString::number(i + 1);
+        usr.userId = QString("%1").arg(i + 1, 3, 10, QChar('0'));
+        usr.phoneNum = QString("15228603240");
+        usr.description = "每天代码一点点";
         usr.avatar = QIcon(":/image/avatar_boy.png");
         Message msg = Message::makeMessage(model::TEXT, "", usr, "这是测试消息", "");
         addMessage(i % 2, msg);

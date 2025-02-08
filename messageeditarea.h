@@ -11,6 +11,9 @@ class MessageEditArea : public QWidget
 public:
     explicit MessageEditArea(QWidget *parent = nullptr);
 
+    // 解决区域不生效问题
+    void paintEvent(QPaintEvent *event) override;
+
 private:
     QPushButton *sendImageBtn;
     QPushButton *sendFileBtn;

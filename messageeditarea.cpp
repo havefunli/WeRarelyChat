@@ -1,12 +1,16 @@
 #include "messageeditarea.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
+#include <QStyleOption>
+#include <QPainter>
 
 MessageEditArea::MessageEditArea(QWidget *parent)
     : QWidget{parent}
 {
     this->setFixedHeight(200);
     setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+    this->setStyleSheet("QWidget { border-top: 1px solid rgb(230, 230, 230); }");
+
     // 控件之间使用垂直布局
     QVBoxLayout *vLayout = new QVBoxLayout();
     vLayout->setSpacing(0);
@@ -16,7 +20,7 @@ MessageEditArea::MessageEditArea(QWidget *parent)
     // 四个功能按钮使用水平布局
     QHBoxLayout *hLayout = new QHBoxLayout();
     hLayout->setSpacing(10);
-    hLayout->setContentsMargins(15, 0, 0, 0);
+    hLayout->setContentsMargins(15, 10, 0, 0);
     hLayout->setAlignment(Qt::AlignTop | Qt::AlignLeft);
     vLayout->addLayout(hLayout);
     // 四个按钮设置
@@ -53,4 +57,12 @@ MessageEditArea::MessageEditArea(QWidget *parent)
                             QPushButton:hover {background-color: rgb(210, 210, 210); }\
                             QPushButton:pressed {background-color: rgb(190, 190, 190); }");
     vLayout->addWidget(sendBtn, 0, Qt::AlignRight);
+}
+
+void MessageEditArea::paintEvent(QPaintEvent *event)
+{
+    QStyleOption opt;
+    opt.initFrom(this);
+    QPainter p(this);
+    style()->drawPrimitive(QStyle::PE_Widget, &opt, &p, this);
 }
