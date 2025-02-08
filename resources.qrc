@@ -19,5 +19,7 @@
         <file>image/history.png</file>
         <file>image/modify.png</file>
         <file>image/submit.png</file>
+        <file>image/checked.png</file>
+        <file>image/unchecked.png</file>
     </qresource>
 </RCC>

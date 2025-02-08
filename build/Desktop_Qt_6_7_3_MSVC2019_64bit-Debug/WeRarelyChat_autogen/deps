@@ -192,8 +192,10 @@ WeRarelyChat_autogen/timestamp: \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qvectornd.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs_win.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QCheckBox \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QDialog \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QGridLayout \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QHBoxLayout \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QLabel \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QLineEdit \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QPlainTextEdit \
@@ -203,6 +205,7 @@ WeRarelyChat_autogen/timestamp: \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qabstractbutton.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qabstractscrollarea.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qboxlayout.h \
+	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qcheckbox.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qdialog.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qframe.h \
 	A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qgridlayout.h \

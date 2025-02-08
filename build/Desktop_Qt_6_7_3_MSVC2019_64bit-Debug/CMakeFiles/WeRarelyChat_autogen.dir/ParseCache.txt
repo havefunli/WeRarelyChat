@@ -1476,6 +1476,7 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/choosefrienddialog.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qglobalstatic.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qhash.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qhashfunctions.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qiodevice.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qiodevicebase.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qiterable.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qiterator.h
@@ -1543,6 +1544,7 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/choosefrienddialog.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qtversionchecks.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qtypeinfo.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qtypes.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qurl.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qutf8stringview.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qvariant.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtCore/qvarlengtharray.h
@@ -1562,21 +1564,36 @@ C:/Users/acer/Desktop/Project/WeRarelyChat/choosefrienddialog.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qkeysequence.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpaintdevice.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpalette.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpicture.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpixelformat.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpixmap.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qpolygon.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qregion.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qrgb.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qrgba64.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtextdocument.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtgui-config.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtguiexports.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtguiglobal.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qtransform.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtGui/qwindowdefs_win.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QCheckBox
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QDialog
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QHBoxLayout
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QLabel
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QPushButton
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/QWidget
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qabstractbutton.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qboxlayout.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qcheckbox.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qdialog.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qframe.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qgridlayout.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlabel.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlayout.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qlayoutitem.h
+ mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qpushbutton.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qsizepolicy.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtwidgets-config.h
  mdp:A:/Qt6/6.7.3/msvc2019_64/include/QtWidgets/qtwidgetsexports.h
